@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.project {
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Add this CSS to your styles.css */
+
+.project img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain the image's aspect ratio */
+    border: 1px solid #ddd; /* Add a border around the images */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+
+/* If you want to limit the image dimensions, you can set a maximum width and height like this */
+.project img {
+    max-width: 200px; /* Set a maximum width */
+    max-height: 150px; /* Set a maximum height */
+}

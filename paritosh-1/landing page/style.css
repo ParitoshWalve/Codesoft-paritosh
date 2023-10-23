@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about, .services, .contact {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.locations {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.locations {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.location {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.location img {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Set the desired width for all location images */
+    height: 150px; /* Set the desired height for all location images */
+    border: 1px solid #ddd;
+}
+
+.location h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.location p {
+    font-size: 16px;
+    color: #777;
+}
+
